@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.header{
+    background-color: #ce0505;
+    height: 65px;
+    
+   
+}
+@media only screen and (max-width:500px){
+    
+    
+}
+.e{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 62px;
+    margin-top: 8px;
+    width: 70%;
+    z-index: 1;
+    font-family: Poppins;
+    color: #eb2929;
+    font-weight: 1000;
+    font-style: normal;
+    
+    
+}
+.circle{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 45px;
+  height: 45px;
+  margin-left: 55px;
+  z-index: 0;
+  margin-top: 9.5px;
+}
+
+.login{
+    position: absolute;
+    margin-top:22px ;
+    font-family: poppins;
+    font-size: 17px;
+    color: #fff;
+}
+
+.account{
+   position: absolute;
+   margin-top: 17.5px;
+   margin-left: 60px;
+   border: none;
+   font-family: poppins;
+   background-color:#ce0505;
+   border: 1px solid  #fff;
+   padding: 5px;
+   font-size: 15px;
+   border-radius: 3px;
+   color: #fff;
+}
+
+
+
+h1{
+    color:#192f60;
+    font-family: 'Bakbak One', cursive;
+    margin-top: 13px;
+    margin-bottom:13px;
+    margin-left: 50px;
+   font-size: 30px;
+    
+}
+
+.side-menu{
+    display: inline-block;
+    /*border: 2px solid black;*/
+    width: 20%;
+    height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    
+}
+.filters{
+    display:block;
+    margin: 10px 10px 10px 20px;
+    color: #192f60;
+    font-family:'Bakbak One', cursive;
+    font-size: 25px;
+}
+
+.select-location{
+    display:block;
+    margin: 10px 10px 10px 20px;
+    color: #6077a5;
+    font-family:'Bakbak One', cursive;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+.select-location-box{
+    border: 1px solid #8c96ab;
+    height: 20px;
+    width: 80%;
+    margin-left: 20px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+.cuisine{
+    display: block;
+  color: #6077a5;
+  font-family: 'bakbak one', cursive;
+    font-size: 15px;
+    margin:10px 0px 10px 20px ;
+}
+
+.cuisine-menu{
+display: block;
+line-height: 25px;
+font-size: 15px;
+color: #8c96ab;
+margin-left: 20px;
+}
+
+
+.cost-for-two{
+    display: block;
+  color: #6077a5;
+  font-family: 'bakbak one', cursive;
+    font-size: 15px;
+    margin:10px 0px 10px 20px ;
+}
+
+.cost-for-two-price{
+    display: block;
+    line-height: 25px;
+    font-size: 15px;
+    color: #8c96ab;
+    margin-left: 20px;
+}
+
+.sort{
+    display: block;
+    color: #192f60;
+    font-family: 'bakbak one', cursive;
+      font-size: 15px;
+      margin:10px 0px 10px 20px ;
+      font-weight: ;
+}
+
+.sort-price{
+    display: block;
+    line-height: 25px;
+    font-size: 15px;
+    color: #8c96ab;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+.menu-container{
+    display: inline-block;
+    position: absolute;
+    
+    width: 60%;
+    height: 70%;
+}
+.rectangle-1{
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 100%;
+  height: 44%;
+}
+
+.image{
+    width: 110px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 25px 20px 10px 20px;
+}
+
+.address{
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 22px;
+    font-family: 'bakbak one', cursive;
+   
+    
+}
+@media only screen and (max-width:500px) {
+    h2{
+        font-size: 10px;
+        color: red;
+    }
+    
+}
+
+h2{
+    color: #192f60;
+}
+
+.street{
+    color: #8c96ab;
+}
+
+.fort{
+    color: #6077a5;
+}
+
+.cuisins-cost-for-two{
+    display: inline-block;
+    color: #8c96ab;
+    margin:10px 25px 20px 20px;
+    font-size: 70%;
+    line-height: 20px;
+   
+}
+
+hr{
+    border: SOLID 1PX;
+    opacity: 0.05;
+}
+.cuisins-cost-for-2{
+    display: inline-block;
+    color:#6077a5;
+    margin:10px 25px 20px 20px;
+    font-size: 70%;
+    line-height: 20px;
+    font-family: 'bakbak one', cursive;
+  
+}
+
+.rectangle-2{
+    display: inline-block;
+    font-family: 'bakbak one', cursive;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 100%;
+    height: 44%;
+    margin-top: 43%;
+ 
+}
